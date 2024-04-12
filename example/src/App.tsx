@@ -1,12 +1,10 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text, Button } from 'react-native';
+import { StyleSheet, View, Button } from 'react-native';
 import { clearCache } from 'react-native-cache-sweeper';
 
 export default function App() {
-
   const handleClearCache = () => {
-    console.log('Clearing cache ')
     clearCache();
   };
 
